@@ -1,0 +1,12 @@
+.listContainer{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.title{
+    color: var(--Rose-900);
+    margin-bottom: 20px;
+}

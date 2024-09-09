@@ -1,0 +1,54 @@
+.cartContainer {
+  width: 32%;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+  position: relative;
+}
+.cartContainer:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.cartContainer img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cartContainer button {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50px;
+  background-color: white;
+  border: 1px solid var(--Rose-500);
+  cursor: pointer;
+  position: absolute;
+  bottom: 90px;
+  left: 70px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.cartContainer button span {
+  margin-right: 5px;
+}
+.cartContainer button:hover {
+  background-color: rgb(221, 221, 221);
+}
+.cartContainer .title {
+  padding: 20px 10px;
+}
+.cartContainer .title p {
+  color: var(--Rose-400);
+}
+.cartContainer .title h3 {
+  color: var(--Rose-900);
+  font-size: 16px;
+}
+.cartContainer .title h4 {
+  color: var(--Red);
+}
