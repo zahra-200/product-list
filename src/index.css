@@ -1,5 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   --Red: hsl(14, 86%, 42%);
+  --Red-dark: hsl(14, 85%, 31%);
   --Green: hsl(159, 69%, 38%);
   --Rose-50: hsl(20, 50%, 98%);
   --Rose-100: hsl(13, 31%, 94%);
@@ -29,6 +33,7 @@ code {
 }
 
 body {
-  padding: 60px;
-  background-color: var(--Rose-50);
+  padding: 5%;
+  background-color: var(--Rose-100);
+  color: var(--Rose-900);
 }
